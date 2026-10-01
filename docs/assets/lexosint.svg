@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">LexOSINT</title><desc id="desc">Des livres colorés ouverts sur une page, avec un marque-page et une loupe. Sources ouvertes, droit du travail, sociétés et jurisprudence.</desc>
+<rect width="1200" height="480" rx="24" fill="#f2e8d6"/>
+<circle cx="222" cy="237" r="165" fill="#e4dccb"/>
+<g transform="translate(83 95)">
+<rect x="24" y="239" width="270" height="30" rx="8" fill="#4d6662"/>
+<path d="M42 249h235" stroke="#e6efdf" stroke-width="3"/>
+<rect x="3" y="203" width="270" height="36" rx="8" fill="#c36d50"/>
+<path d="M26 214h225m-225 11h225" stroke="#f7e9cd" stroke-width="3"/>
+<path d="M137 68C99 42 45 39 10 49v148c41-8 87-1 127 27 39-28 85-35 126-27V49c-35-10-89-7-126 19Z" fill="#fff9ec" stroke="#4d6662" stroke-width="4" stroke-linejoin="round"/>
+<path d="M137 68v156" stroke="#c9bba2" stroke-width="3"/>
+<path d="M32 81c28-2 54 3 78 14m-78 9c28-2 54 3 78 14m-78 9c28-2 54 3 78 14m-78 9c22-1 42 2 59 7M163 96c24-11 45-16 71-15m-71 38c24-11 45-16 71-15m-71 38c24-11 45-16 71-15" fill="none" stroke="#c9bba2" stroke-width="4" stroke-linecap="round"/>
+<path d="M202 46v51l16-10 16 10V44" fill="#c36d50"/>
+<g transform="translate(234 172) rotate(-18)"><circle r="34" fill="#dce4d9" fill-opacity=".8" stroke="#374a48" stroke-width="8"/><path d="m22 26 36 42" stroke="#374a48" stroke-width="13" stroke-linecap="round"/></g>
+<path d="M29 9v16m-8-8h16M273 9v12m-6-6h12" stroke="#c36d50" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="439" y="139" font-family="sans-serif" font-size="17" font-weight="600" letter-spacing="3" fill="#556b64">LES SOURCES À LIVRE OUVERT</text>
+<text x="430" y="264" font-family="Georgia,serif" font-size="103" letter-spacing="-6" fill="#2e423c">Lex<tspan fill="#ad563e">OSINT</tspan></text>
+<path d="M441 302h621" stroke="#c6b89e" stroke-width="2"/>
+<text x="441" y="350" font-family="sans-serif" font-size="22" fill="#556b64">Travail · Sociétés · Jurisprudence</text>
+<text x="441" y="389" font-family="sans-serif" font-size="16" fill="#7b674f">Un orchestrateur. Trois collectes documentaires.</text>
+</svg>

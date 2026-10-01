@@ -1,0 +1,15 @@
+{
+  "name": "lexosint",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OSINT documentaire : sources ouvertes en droit du travail, des sociétés et jurisprudence. Sans conseil juridique professionnel.",
+  "license": "MIT",
+  "engines": { "node": ">=22.16" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "audit:public": "node scripts/audit-public.mjs"
+  }
+}
