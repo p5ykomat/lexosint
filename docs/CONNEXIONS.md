@@ -107,9 +107,11 @@ claude mcp add --transport http --scope local lexosint_data_gouv https://mcp.dat
 
 Le point d'accès public n'utilise pas de clé personnelle fournie par ce projet. Demandez une découverte de jeu, puis l'ouverture de sa ressource : la notice de catalogue seule ne suffit pas. Une API trouvée peut demander son propre compte.
 
-## 4. Entreprises, actes et Judilibre
+## 4. OSINT Business, complément ponctuel et facultatif
 
-Installez séparément [OSINT Business](https://github.com/p5ykomat/osint-business) et suivez son guide. Sa connexion locale peut ensuite être ajoutée au client utilisé dans LexOSINT, avec le chemin du lanceur généré sur **votre** ordinateur. Ne recopiez pas le dossier d'un autre utilisateur.
+**Vous pouvez ignorer cette section. LexOSINT ne nécessite pas OSINT Business ni l'installation d'un autre dépôt.** Pour une information d'entreprise utile à la question, consultez directement l'Annuaire des entreprises, le BODACC, l'INPI selon les droits d'accès, ou fournissez une référence que vous avez trouvée. Un site secondaire d'information d'entreprise peut aider à découvrir une information ; vérifiez les éléments décisifs dans la publication officielle.
+
+Si vous utilisez déjà [OSINT Business](https://github.com/p5ykomat/osint-business), ou souhaitez volontairement l'ajouter, suivez son guide séparé. Sa connexion locale peut ensuite être ajoutée au client utilisé dans LexOSINT, avec le chemin du lanceur de **votre** ordinateur. Son usage reste limité à une fiche, une annonce ou une pièce nécessaire à la question, sans exploration approfondie des dirigeants ou ramifications par défaut.
 
 - Identité et BODACC fonctionnent sans compte dans les connecteurs fournis.
 - Pour INPI, créez votre compte, demandez les droits API sur les formalités, actes et comptes nécessaires, puis renseignez vos identifiants dans le `.env` **d'OSINT Business**.

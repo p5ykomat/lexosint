@@ -27,10 +27,14 @@ Découvrir les noms et schémas des outils effectivement accessibles, y compris 
 | Décisions judiciaires | OpenLégi, Judilibre si connecté ou recherche officielle Cour de cassation / Légifrance. Ouvrir la décision, pas seulement l'extrait de recherche. |
 | Publication fiscale ou européenne pertinente | OpenLégi BOFiP ou EUR-Lex si autorisé, sinon site officiel. Distinguer textes, doctrine et décisions. |
 | Jeux de données français | MCP data.gouv.fr, puis ressource : producteur, date et couverture. La notice seule ne vaut pas consultation des données. |
-| Registres, actes ou annonces d'entreprise | OSINT Business installé séparément, sinon publications officielles accessibles. Confirmer le SIREN et distinguer inventaire et lecture des pièces. |
+| Information ou pièce d'entreprise nécessaire à la question | Publications officielles accessibles ou pièce fournie. OSINT Business déjà connecté peut servir de complément ponctuel, sans installation obligatoire. Confirmer le SIREN et distinguer inventaire et lecture des pièces. |
 | PDF et scans | Lecteur local disponible, notamment Docling. Convertir et lire dans la même session, conserver les pages et vérifier les passages décisifs. |
 
 OpenLégi est un intermédiaire : citer la publication sous-jacente. Si un MCP est absent ou refuse l'accès, utiliser les outils web du client sur les sites officiels. Respecter quotas et protections, sans répéter des essais inchangés. Ne créer ni compte ni abonnement automatiquement. Sans accès à des sources actuelles, produire uniquement un plan documentaire et signaler la limite.
+
+### Limiter la recherche d'entreprise au besoin documentaire
+
+Ne pas demander l'installation d'OSINT Business pour poursuivre une recherche LexOSINT. S'il est déjà connecté, utiliser seulement les appels ciblés nécessaires à une fiche, une annonce ou une pièce. Ne pas lancer par défaut de graphe de mandats, de recherche sur les dirigeants ou de rapport d'enquête complet. Une question générale sur un texte ou une convention ne nécessite aucune enquête d'entreprise. Un approfondissement distinct exige une demande explicite de l'utilisateur. Une référence issue d'un site secondaire peut orienter la recherche ; recouper les éléments décisifs avec les publications officielles.
 
 ## Documenter sans rendre un avis
 

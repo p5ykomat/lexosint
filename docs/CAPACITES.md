@@ -17,15 +17,17 @@ Le projet ne prétend pas héberger les bases juridiques ni fournir un serveur M
 | Code du travail et Code de commerce | OpenLégi Légifrance | Légifrance direct |
 | Convention, IDCC, avenant et extension | Fonds KALI exposé par le MCP | Légifrance, Code du travail numérique |
 | Accords d'entreprise | Outils du fonds correspondant s'ils sont exposés | Recherche officielle et pièce fournie |
-| Jurisprudence judiciaire | OpenLégi ou Judilibre via OSINT Business | Cour de cassation, Légifrance |
+| Jurisprudence judiciaire | OpenLégi si connecté, ou publications officielles | Cour de cassation, Légifrance, Judilibre via un connecteur déjà disponible |
 | Évolution d'un texte | Versions consolidées et JORF disponibles | Publication officielle datée |
 | Documentation sur un calcul social | Textes et barèmes publiés | Présentation des simulateurs officiels et de leurs limites, sans validation individuelle |
-| Identité et statut d'entreprise | OSINT Business | Annuaire des entreprises |
-| Actes et statuts | INPI via OSINT Business, droits nécessaires | Pièce publique obtenue légalement ou fournie |
-| Annonces et procédures | BODACC via OSINT Business | BODACC direct |
+| Identité et statut d'entreprise, si utile | Annuaire des entreprises | Vérification ponctuelle avec OSINT Business déjà connecté |
+| Acte ou statuts précis | INPI selon les droits, pièce publique obtenue légalement ou fournie | OSINT Business déjà connecté, selon les droits |
+| Annonce ou procédure publiée | BODACC direct | Recherche ponctuelle avec OSINT Business déjà connecté |
 | Source complémentaire française | MCP data.gouv.fr | Ressource officielle du producteur |
 
 La méthode est détaillée dans les grilles [travail](../.agents/skills/lexosint/references/travail.md), [sociétés](../.agents/skills/lexosint/references/societes.md) et [contrôle final](../.agents/skills/lexosint/references/couverture.md).
+
+OSINT Business est un complément ponctuel, jamais un prérequis. LexOSINT ne lance pas d'enquête approfondie sur les entreprises ou leurs ramifications par défaut. Une publication officielle directe ou une pièce fournie peut suffire ; il n'est pas nécessaire d'installer un autre dépôt.
 
 ## Ce qui n'est pas automatisé
 

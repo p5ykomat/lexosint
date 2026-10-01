@@ -43,6 +43,40 @@ L'orchestrateur sélectionne les recherches utiles. Une question simple ne lance
 
 Le résultat est une **synthèse documentaire** : sources lues, éléments non vérifiés, versions trouvées et questions à approfondir. L'outil ne détermine pas vos droits, ne prescrit pas de stratégie et ne vous représente pas.
 
+## Quelles sources pour quelle recherche ?
+
+LexOSINT peut consulter les publications officielles avec les outils web de votre client. Les MCP facilitent certaines recherches, mais **installer OSINT Business n'est pas nécessaire pour utiliser LexOSINT**.
+
+| Besoin documentaire | Source à privilégier | Repli ou complément |
+|---|---|---|
+| Code du travail et Code de commerce | Légifrance, directement ou via OpenLégi | Publications officielles datées |
+| Convention collective, IDCC et avenants | Légifrance et fonds KALI si connecté | Code du travail numérique |
+| Accords d'entreprise | Recherche officielle dans les accords publiés | Texte fourni et outils du fonds s'ils sont disponibles |
+| Jurisprudence | Cour de cassation et Légifrance, directement ou via OpenLégi | Judilibre via un connecteur déjà disponible |
+| Fiches pratiques et simulateurs | Code du travail numérique | Textes et barèmes publiés, sans validation d'un montant individuel |
+| Identité ou forme d'une entreprise, si utile | Annuaire des entreprises | OSINT Business déjà connecté, pour une vérification ponctuelle |
+| Annonce ou acte public précis | BODACC, INPI ou pièce obtenue légalement | OSINT Business déjà connecté, selon les droits d'accès |
+| Jeu de données complémentaire | data.gouv.fr et ressource du producteur | MCP data.gouv.fr si connecté |
+
+**OSINT Business est un complément ponctuel.** Il peut aider à récupérer une fiche, une annonce ou une pièce qui manque à la recherche. Il ne déclenche pas d'enquête approfondie sur les sociétés, les dirigeants ou leurs ramifications. Vous pouvez aussi consulter vous-même un site d'information d'entreprise et fournir la référence utile ; les informations décisives sont à rapprocher des publications officielles.
+
+### Les connexions possibles
+
+| Connexion | Usage | Accès à prévoir |
+|---|---|---|
+| Web du client | Consultation des sites officiels et publications accessibles | Fonction web de votre client |
+| OpenLégi Légifrance | Recherche dans les fonds exposés : codes, conventions et décisions notamment | Votre compte et ses autorisations |
+| MCP data.gouv.fr | Découverte de jeux, API et ressources publiques | Point d'accès public |
+| OSINT Business, facultatif | Vérification ou document ponctuel si nécessaire | Seulement si vous souhaitez ce complément ; aucun autre dépôt requis pour démarrer LexOSINT |
+| Lecteur documentaire local | Lecture de PDF et scans | Outil du client ou Docling local |
+| BOFiP et EUR-Lex | Complément documentaire fiscal ou européen pertinent | Site officiel ou accès MCP correspondant |
+
+Sources ouvertes ne signifie pas que toutes les API sont anonymes, gratuites ou sans quota. Les données, droits d'accès et conditions de réutilisation dépendent de leurs producteurs. Aucun accès réservé professionnel ni compte partagé n'est fourni.
+
+**[Configurer les connexions](docs/CONNEXIONS.md)** · **[Capacités et limites](docs/CAPACITES.md)**
+
+Les connexions sont facultatives à installer. Une fois disponibles et autorisées, les agents les consultent selon les déclencheurs de la skill. Ils doivent distinguer les consultations effectives des accès indisponibles. Le nombre d'outils distants dépend des services et des comptes.
+
 ## Installer
 
 Téléchargez **Code → Download ZIP** et décompressez. Avec [Node.js 24 LTS](https://nodejs.org/) installé, ouvrez un terminal dans le dossier :
@@ -53,23 +87,6 @@ npm run doctor
 ```
 
 Pas de dépendance à télécharger ni de clé demandée par l'installation. Le script prépare les trois rôles pour chacun des deux clients et conserve les personnalisations existantes. **[Guide pas à pas](docs/INSTALLATION.md)**.
-
-## Les sources et leurs accès
-
-| Connexion | Usage | Accès à prévoir |
-|---|---|---|
-| Web du client | Consultation des sites officiels et publications accessibles | Fonction web de votre client |
-| OpenLégi Légifrance | Recherche dans les fonds exposés : codes, conventions et décisions notamment | Votre compte et ses autorisations |
-| MCP data.gouv.fr | Découverte de jeux, API et ressources publiques | Point d'accès public |
-| OSINT Business | Registres, annonces, actes et Judilibre | Installation séparée ; comptes personnels selon la source |
-| Lecteur documentaire local | Lecture de PDF et scans | Outil du client ou Docling local |
-| BOFiP et EUR-Lex | Complément documentaire fiscal ou européen pertinent | Site officiel ou accès MCP correspondant |
-
-Sources ouvertes ne signifie pas que toutes les API sont anonymes, gratuites ou sans quota. Les données, droits d'accès et conditions de réutilisation dépendent de leurs producteurs. Aucun accès réservé professionnel ni compte partagé n'est fourni.
-
-**[Configurer les connexions](docs/CONNEXIONS.md)** · **[Capacités et limites](docs/CAPACITES.md)**
-
-Les connexions sont facultatives à installer. Une fois disponibles et autorisées, les agents les consultent selon les déclencheurs de la skill. Ils doivent distinguer les consultations effectives des accès indisponibles. Le nombre d'outils distants dépend des services et des comptes.
 
 ## Exemple de demande
 
