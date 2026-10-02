@@ -1,6 +1,6 @@
 ![LexOSINT, recherche documentaire en sources ouvertes](docs/assets/lexosint.svg)
 
-# LexOSINT
+# Agent IA - LexOSINT
 
 > [!WARNING]
 > **Recherche documentaire uniquement. Aucun conseil juridique professionnel.**
@@ -9,7 +9,7 @@
 >
 > **Cet outil ne remplace pas le travail d'un avocat ou d'un juriste.** Utilisez-le comme point de départ documentaire. En cas de doute, de délai à respecter ou avant une décision engageante, consultez un professionnel compétent dans le domaine concerné.
 
-**Un agent orchestrateur et trois sous-agents documentaires pour Codex et Claude Code.**
+**Un agent IA à installer dans Codex ou Claude Code, avec un orchestrateur et trois sous-agents documentaires.**
 
 Les publications juridiques sont dispersées et parfois difficiles à consulter. LexOSINT organise leur recherche dans les sources accessibles : textes, conventions collectives, décisions publiées, registres et actes publics. Il rassemble les références, leurs dates, les extraits utiles et les limites de la collecte.
 
